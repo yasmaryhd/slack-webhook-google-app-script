@@ -13,6 +13,17 @@ Will post more example scripts as I go :)
 * [Post weekly message](post-weekly-message/): At the end of each week, we capture the awesome things we have accomplished to then share them out with the organization. This script will post a message in a set of channels and @ mention someone in particular that needs to be alerted.
 * [Weekly Trivia](weekly-trivia/): Thought it would be fun to have a Trivia Bot for our community. This is a super simple setup where in Google Sheets you have a list of trivia questions & and their answers. The script then randomly picks one to post to a channel. The question and answer are posted separately, giving you flexibility on how you engage the community. It also supports testing out trivia questions to a private channel to collaborate with others.
 
+# Getting Started
+
+For each of the examples above,
+
+* Import the xlsx file into google sheets
+* Within sheets, go to Tools -> Script Editor
+* Copy over the Code.gs contents into Script Editor
+* Review script for instance of "REPLACE-ME" (e.g. slack channels, webhook url)
+* Use script editor to run and troubleshoot script
+* When you have it ready, you can setup a trigger to run the script at your desired cadence
+
 # References
 
 * [Webhooks](https://api.slack.com/messaging/webhooks#posting_with_webhooks) are a super convenient way to post messages into Slack 
